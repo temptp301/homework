@@ -24,9 +24,9 @@ const resolvers = {
 		hello: (root, { name }, ctx, info) => {
 			if (!name)
 				name = defaultName;
-			return `Hello World from ${name}!`;
+			return `Hello. My Name is ${name}!`;
 		},
-		sayhi: () => "Hi API from graphQL"
+		sayhi: () => "์Nice to meet you"
 	},
 	Mutation: {
 		changeDefaultName: (root, { name }, ctx, info) => {
