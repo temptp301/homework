@@ -26,7 +26,7 @@ const resolvers = {
 				name = defaultName;
 			return `Hello. My Name is ${name}!`;
 		},
-		sayhi: () => "์Nice to meet you"
+		sayhi: () => "์It's nice to meet you"
 	},
 	Mutation: {
 		changeDefaultName: (root, { name }, ctx, info) => {
